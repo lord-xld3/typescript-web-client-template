@@ -17,15 +17,15 @@ Install jQuery
 
 ## 3. Usage
 
-### Start Compiler
+### Start Compiler in /src/
 
 Run once, it will compile whenever you save a .ts file
 >`tsc -p .\tsconfig.json`
 
-### /src/lib.d.ts
-
-Declare type definitions here (optional, makes script.ts cleaner), don't assign values
-
 ### /src/script.ts
 
-Write program here, it will compile to .js
+Write program here, it will compile to ../build/script.js
+
+### /src/tsconfig.json
+
+Defaults: target ES6, remove comments, strict type checking
