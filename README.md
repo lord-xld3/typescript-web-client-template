@@ -1,6 +1,6 @@
 # typescript-web-client-template
 
-Clone this and add assets. Run following commands in PowerShell.
+Clone this and add assets in /build/. Run following commands in PowerShell:
 
 ## 1. Setup TypeScript/npm workaround (one-time)
 
